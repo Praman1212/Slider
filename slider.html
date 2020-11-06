@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        button{
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(56, 73, 109);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Slider</h1>
+    <div id="Phuto">
+        <img src="Barcelona.jpg" id="photo">
+    <div class="Plugs">
+        <button id="pre" style="transform: translate(0px,-50vh);"><i class="fa fa-arrow-circle-left"></i></button>
+        <button id="next" style="transform: translate(85vh,-50vh);"><i class="fa fa-arrow-circle-right"></i></button>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
